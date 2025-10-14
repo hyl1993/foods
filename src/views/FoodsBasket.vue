@@ -603,16 +603,15 @@ export default {
   margin-right: 20px; /* 删除按钮右侧留出20px间距 */
 }
 
-.favorite-btn {
-  /* 不需要特殊定位，使用默认布局 */
-}
+
 
 @media (max-width: 768px) {
   .delete-btn {
-    margin-right: 10px; /* 移动端缩小间距 */
+    margin-right: 10px;
   }
+  /* 移动端隐藏按钮文字 */
   .favorite-btn .btn-text {
-    /* display: none; */
+    display: none;
   }
 }
 </style>

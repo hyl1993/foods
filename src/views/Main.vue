@@ -526,12 +526,9 @@ export default {
 }
 
 .dish-desc {
-  font-size: 13px;
-  color: #666;
-  line-height: 1.4;
-  margin: 0 0 8px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -584,6 +581,7 @@ export default {
   
   .dish-desc {
     -webkit-line-clamp: 3;
+    line-clamp: 3;  
   }
 }
 
