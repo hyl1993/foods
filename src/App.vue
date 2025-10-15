@@ -5,7 +5,7 @@
     <!-- <Header msg="aaa"/> -->
     <!-- <nav>
     </nav> -->
-    <!-- 路由规则生效配置 -->
+    <!-- 路由规则生效配置1 -->
     <router-view/>
   </div>
 </template>
